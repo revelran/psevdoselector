@@ -1,0 +1,31 @@
+.btn {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: burlywood;
+    /* плавное изменения состояние*/
+    transition: all.5s;
+}
+
+/*При наведении на элемент применить указанные свойства*/
+.btn:hover {
+    background-color: darkkhaki;
+
+}
+
+/* При клики на элемент и пока не отпустили кнопку мыши применить указаные свойства мыши*/
+.btn:active {
+    /* Маштаб*/
+    scale: 0.5;
+}
+
+.form {
+    background-color: cadetblue;
+    /* Чтобы форма занимала не все ширину родителя а ровно столько места сколько нужно под ее содержимое устанавливаем*/
+    display: inline-block;
+}
+
+
+.form-row {
+    margin-bottom: 20px;
+}
